@@ -77,7 +77,7 @@ print(f"A lista de convidados agora é:{guest_list}.")
 
 ##sending a reinvite to people that still on list
 print(f"Hello Sir {guest_list[1]}, we still have places for you tonight. We count with you on dinner later, cya!")
-print(f"Olá Sr. {guest_list[0]}, estamos mandando essa mensagem para confirmar o seu lugar no jantar de hoje à noite. Esperamos você lá.")
+print(f"Olá Sr. {guest_list[0]}, estamos mandando essa mensagem para confirmar o seu lugar no jantar de hoje à noite. Esperamos você em breve.")
 
 ##clearing the list
 del guest_list[1]
