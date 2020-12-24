@@ -1,3 +1,4 @@
+#4-2. Animals:
 animals = ['canguru', 'coala', 'gambá']
 for animal in animals:
 	print(animal)

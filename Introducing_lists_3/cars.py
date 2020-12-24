@@ -27,12 +27,13 @@ cars = ['bmw', 'audi', 'toyota', 'subaru']
 print(cars)
 
 cars.reverse()
-print(cars) #reverse() changes the order permanently, but you can revert to the original
-#by using reverse() again.
+print(cars) #reverse() changes the order permanently, but you can revert to the
+#original by using reverse() again.
 
 #finding the lenght of a list:
 cars = ['bmw', 'audi', 'toyota', 'subaru']
-print(len(cars)) #Why not working???? (its working ok on terminal), seems like we need print()
+print(len(cars)) #Why not working???? (its working ok on terminal), seems like
+#we need print()
 
 #3-8. Seeing the World:
 locations = ['Paris', 'Berlin', 'Prague', 'Toronto', 'Sidney']
@@ -41,11 +42,13 @@ print(locations)
 print(f"Sorted locations: {sorted(locations)}.") #tempo reverse.
 print(f"Orignal order locations: {locations}.") #original list stills the same.
 
-print(f"Reverse sorted locations: {sorted(locations, reverse = True)}.") #tempo reverse.
+print(f"Reverse sorted locations: {sorted(locations, reverse = True)}.") #tempo
+#reverse.
 print(f"Orignal order locations: {locations}.") #orignal list stills the same.
 
 locations.reverse() #reverting perma.
-print(f"'Chronological' Reversed order locations: {locations}.") #chronological perma reversed.
+print(f"'Chronological' Reversed order locations: {locations}.") #chronological 
+#perma reversed.
 
 locations.reverse() #reverting perma back to the original order.
 print(f"'Chronological' Reversed again to the original order locations: {locations}.")
