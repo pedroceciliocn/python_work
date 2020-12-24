@@ -1,2 +1,2 @@
 # python_work
-Lessons from my studies using the Python Crash Course book
+Lessons from my studies using the Eric Matthes Python Crash Course book.
