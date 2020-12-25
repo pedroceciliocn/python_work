@@ -53,6 +53,16 @@ else:
 			if answer > 42:
 				print("That is not the correct answer. The correct is smaller. Please try again!")
 
+##another way:
+answer = 50
+if answer == 42:
+	print("You are correct! Congratulations!")
+elif answer != 42:
+	if answer < 42:
+		print("That is not the correct answer. The correct is bigger. Please try again!")
+	elif answer < 42:
+		print("That is not the correct answer. The correct is smaller. Please try again!")
+
 
 answer = 36
 if answer == 42:
