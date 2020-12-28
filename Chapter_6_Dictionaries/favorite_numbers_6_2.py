@@ -13,3 +13,7 @@ print(f"Artur's favorite number is {number}.")
 
 number = favorite_numbers['gabriel']
 print(f"Gabriel's favorite number is {number}.")
+
+#using for loop through all key-value pairs:
+for name, number in favorite_numbers.items():
+	print(f"{name.title()}'s favorite number is {number}.")
