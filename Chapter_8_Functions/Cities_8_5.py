@@ -1,5 +1,5 @@
 #Cities:
-def describe_city(city_name, country = 'brazil'):
+def describe_city(city_name, country='brazil'):
 	print(f"{city_name.title()} is in {country.title()}.")
 
 describe_city('salgueiro')

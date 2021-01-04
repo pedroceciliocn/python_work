@@ -6,6 +6,6 @@ def make_car(manufacturer, model, **car_info):
 	return car_info
 
 car_profile = make_car('subaru', 'outback',
-							color = 'blue',
-							tow_package = True)
+							color='blue',
+							tow_package=True)
 print(car_profile)

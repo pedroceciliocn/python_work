@@ -6,4 +6,4 @@ def make_shirt(size, text):
 make_shirt('P', 'S2')
 
 ##using keyword arguments
-make_shirt(text = 'S2', size = 'P')
+make_shirt(text='S2', size='P')

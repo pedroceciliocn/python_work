@@ -1,6 +1,6 @@
 #Large shirts:
 ##positional
-def make_shirt(size = 'large', text = 'I love Python'):
+def make_shirt(size='large', text='I love Python'):
 	print(f"Your shirt size is {size} and the message printed is '{text}'.")
 
 make_shirt() #using default values (large and i love python)
