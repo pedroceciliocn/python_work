@@ -37,8 +37,8 @@ class IceCreamStand(Restaurant):
 
 
 
-barraca_sorvete = IceCreamStand('Zecas', 'Sorveteria')
+##barraca_sorvete = IceCreamStand('Zecas', 'Sorveteria') #check 9-10
 #restaurant.set_number_served(20)
 #restaurant.increment_number_served(10)
 #print(restaurant.number_served)
-barraca_sorvete.list_icecream_flavors()
+##barraca_sorvete.list_icecream_flavors() #check 9-10

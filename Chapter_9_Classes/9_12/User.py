@@ -21,26 +21,3 @@ class User:
 	def reset_login_attempts(self):
 		self.login_attempts = 0
 
-class Privileges:
-	def __init__(self):
-		self.privileges = ['can add post', 'can delete post', 'can ban user']
-
-	def show_privileges(self):
-		print("The admin privileges are: ")
-		for privilege in self.privileges:
-			print(privilege)
-
-
-class Admin(User):
-	def __init__(self, first_name, last_name, user_age, user_location):
-		"""
-		Initialize attributes of the parent class.
-		Then initialize attributes specific to an admin user.
-		"""
-		super().__init__(first_name, last_name, user_age, user_location)
-		self.privileges = Privileges()
-
-
-##adm = Admin('edward', 'elwric', 8, 'petrolina') #check 9-11
-
-##adm.privileges.show_privileges() #check 9-11
