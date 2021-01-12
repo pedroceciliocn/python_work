@@ -1,0 +1,5 @@
+In Python you can print random phrases
+In Python you can read random files
+In Python you can analize random data
+In Python you can show random graphs
+In Python you can do random stuff
