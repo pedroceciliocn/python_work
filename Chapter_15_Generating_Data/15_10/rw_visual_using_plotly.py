@@ -1,11 +1,11 @@
 #Using List Compprehension this time
 # Rolling Two Dice
-from plotly.graph_objs import Scatter, Layout
+import plotly.graph_objs as go
 from plotly import offline
 
 from random_walk import RandomWalk
 
-rw = RandomWalk(50_000)
+rw = RandomWalk()
 rw.fill_walk()
 
 point_numbers = list(range(rw.num_points))
@@ -20,7 +20,7 @@ point_numbers = list(range(rw.num_points))
 ## Make some rolls, and store results in a list (using list comprehension).
 """
 results = []
-for roll_num in range(50_000):
+for roll_num in range(1_000):
 	result = die_1.roll() * die_2.roll()
 	results.append(result)
 """
@@ -44,13 +44,13 @@ for value in range(1, max_result+1):
 
 ##point_numbers = list(range(rw.num_points))
 
-data = [Scatter(x=rw.x_values, y=rw.y_values)]
+data = [go.Scatter(x=rw.x_values, y=rw.y_values)]
 
-x_axis_config = {'title': 'X', 'dtick': 1}
-y_axis_config = {'title': 'Y'}
-my_layout = Layout(title='Random Walk', 
-	xaxis=x_axis_config, yaxis=y_axis_config)
-offline.plot({'data': data, 'layout': my_layout}, filename='rw.html')
+#x_axis_config = {'title': 'X', 'dtick': 1}
+#y_axis_config = {'title': 'Y'}
+#my_layout = Layout(title='Random Walk', 
+#	xaxis=x_axis_config, yaxis=y_axis_config)
+offline.plot({'data': data}, filename='rw.html')
 
 
 #while True:
