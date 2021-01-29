@@ -1,1 +1,2 @@
 Chapter_18_Getting_Started_With_Django/* linguist-vendored
+*.html linguist-detectable=false
