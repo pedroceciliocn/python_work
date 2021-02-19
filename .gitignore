@@ -1,2 +1,4 @@
+ll_env/
 _pycache_/
 .Rproj.user
+*.sqlite3
